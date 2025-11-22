@@ -9,7 +9,7 @@ import { Server } from 'socket.io';
 export const initializeSocket = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "*",
+      origin: 'https://ephothik-dish-managment.vercel.app/' || 'http://localhost:5173',
       methods: ['GET', 'POST'],
       credentials: true,
     },
