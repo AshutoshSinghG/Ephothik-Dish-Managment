@@ -1,11 +1,5 @@
 import Dish from '../models/Dish.js';
 
-/**
- * @desc    Get all dishes
- * @route   GET /api/dishes
- * @access  Public
- * @returns All dishes sorted by dishName
- */
 export const getDishes = async (req, res) => {
   try {
     // Fetch all dishes and sort by dishName (ascending)
@@ -27,11 +21,8 @@ export const getDishes = async (req, res) => {
 };
 
 /**
- * @desc    Create a new dish
- * @route   POST /api/dishes
- * @access  Public
- * @body    {string} dishId, {string} dishName, {string} imageUrl, {boolean} isPublished
- * @returns Created dish object
+ *   Create a new dish
+ *  Created dish object
  */
 export const createDish = async (req, res) => {
   try {
@@ -86,10 +77,6 @@ export const createDish = async (req, res) => {
 
 /**
  * @desc    Update a dish
- * @route   PUT /api/dishes/:dishId
- * @access  Public
- * @param   {string} dishId - The dish ID to update
- * @body    {string} dishName, {string} imageUrl, {boolean} isPublished
  * @returns Updated dish object
  */
 export const updateDish = async (req, res) => {
@@ -139,9 +126,6 @@ export const updateDish = async (req, res) => {
 
 /**
  * @desc    Delete a dish
- * @route   DELETE /api/dishes/:dishId
- * @access  Public
- * @param   {string} dishId - The dish ID to delete
  * @returns Success message
  */
 export const deleteDish = async (req, res) => {
@@ -182,9 +166,6 @@ export const deleteDish = async (req, res) => {
 
 /**
  * @desc    Toggle publish status of a dish
- * @route   PUT /api/dishes/:dishId/toggle
- * @access  Public
- * @param   {string} dishId - The dish ID to toggle
  * @returns Updated dish object
  */
 export const togglePublishStatus = async (req, res) => {
