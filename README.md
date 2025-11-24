@@ -253,42 +253,6 @@ Emitted when a dish's publish status is toggled.
 }
 ```
 
-## 📸 Screenshots
-
-### Dashboard View
-![Dashboard](./screenshots/dashboard.png)
-
-### Real-Time Updates
-![Real-Time](./screenshots/realtime.png)
-
-### Mobile View
-![Mobile](./screenshots/mobile.png)
-
-*Note: Add your screenshots to the `screenshots/` directory*
-
-## 🎥 Video Recording Guide
-
-### How to Record Required Videos (Demo + Code Explanation)
-
-#### Using Loom:
-1. Go to [loom.com](https://www.loom.com) and sign up/login
-2. Click "New Recording"
-3. Choose "Screen + Camera" or "Screen Only"
-4. Select the window/tab you want to record
-5. Click "Start Recording"
-6. Demonstrate the application features
-7. Stop recording and share the link
-
-#### Using OBS Studio:
-1. Download and install [OBS Studio](https://obsproject.com/)
-2. Add a "Display Capture" source for your screen
-3. Add a "Window Capture" for your code editor (optional)
-4. Add an "Audio Input Capture" for your microphone
-5. Click "Start Recording"
-6. Demonstrate the application
-7. Stop recording and save the video file
-
-#### What to Include:
 
 **Demo Video:**
 - Show the dashboard loading dishes
