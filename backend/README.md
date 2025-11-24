@@ -299,15 +299,4 @@ NODE_ENV=production
 - All timestamps are in ISO 8601 format
 - The database is automatically indexed on `dishId` for faster queries
 
-## 🤝 Contributing
-
-This is a project assignment. For questions or issues, please refer to the problem statement.
-
-## 📄 License
-
-ISC
-
----
-
-**Built with ❤️ for DishManager**
 

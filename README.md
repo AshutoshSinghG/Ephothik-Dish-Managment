@@ -316,11 +316,5 @@ Emitted when a dish's publish status is toggled.
 
 This is a project assignment. For questions or issues, please refer to the problem statement.
 
-## 📄 License
 
-ISC
-
----
-
-**Built with ❤️ for DishManager**
 
